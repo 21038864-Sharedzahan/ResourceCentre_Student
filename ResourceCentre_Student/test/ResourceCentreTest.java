@@ -215,7 +215,7 @@ public class ResourceCentreTest {
 		//fail("Not yet implemented");
 		// write your code here
 		//boundary
-		assertNotNull("Test if there is valid Camcorder arraylist to add to", chromebookList);
+		assertNotNull("Test if there is valid Chromebook arraylist to add to", chromebookList);
 		ResourceCentre.addChromebook(chromebookList, cb1);
 		//error
 		Boolean isReturned = ResourceCentre.doReturnChromebook(chromebookList, "CB0011");
