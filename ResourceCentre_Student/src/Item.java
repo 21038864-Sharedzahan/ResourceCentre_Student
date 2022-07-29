@@ -15,7 +15,7 @@ public class Item {
 	public String getAssetTag() {
 		return assetTag;
 	}
-
+	//Alex - Add Comment
 	public String getDescription() {
 		return description;
 	}
